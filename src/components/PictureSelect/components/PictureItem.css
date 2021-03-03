@@ -1,0 +1,37 @@
+.item-box {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.single-check {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.item-box > img {
+  width: 10rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.item-box > span {
+  font-size: xx-small;
+  color: #000;
+  display: inline-block;
+  width: 10rem;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
